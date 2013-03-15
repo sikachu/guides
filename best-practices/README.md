@@ -54,6 +54,7 @@ Rails
   `update_attribute`, and `toggle`.
 * Don't change a migration after it has been merged into master if the desired
   change can be solved with another migration.
+* Don't name methods after database columns in the same class.
 * Validate the associated `belongs_to` object (`user`), not the database
   column (`user_id`).
 
